@@ -1,0 +1,9 @@
+{
+    "mode": "dev",
+    
+    "dev-domain": "http://localhost:5000",
+    "dev-domain-api": "http://localhost:5000/api/v1",
+
+    "prod-domain": "https://sightapi.site",
+    "prod-domain-api": "https://sightapi.site/api/v1"
+}

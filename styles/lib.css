@@ -1,0 +1,127 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.d-flex { display: flex;}
+.f-column { flex-direction: column; }
+.f-wrap { flex-wrap: wrap; }
+.f-wrap-reserve { flex-wrap: wrap-reverse; }
+.f-nowrap { flex-wrap: nowrap; }
+/* justify-content */
+.j-cont-center { justify-content: center; }
+.j-cont-around { justify-content: space-around }
+.j-cont-between { justify-content: space-between; }
+.j-cont-evenly { justify-content: space-evenly; }
+.j-cont-start { justify-content: flex-start; }
+.j-cont-end { justify-content: flex-end; }
+/* justify-content */
+.al-items-center { align-items: center; }
+.al-items-around { align-items: space-around }
+.al-items-between { align-items: space-between; }
+.al-items-evenly { align-items: space-evenly; }
+.al-items-start { align-items: flex-start; }
+.al-items-end { align-items: flex-end; }
+
+.p0 { padding: var(--p) }
+.p1 { padding: var(--p1) }
+.p2 { padding: var(--p2) }
+.p0-lr { padding-left: var(--p); padding-right: var(--p) }
+.p1-lr { padding-left: var(--p1); padding-right: var(--p1) }
+.p2-lr { padding-left: var(--p2); padding-right: var(--p2) }
+
+.m0 { margin: var(--m) }
+.m1 { margin: var(--m1) }
+.m2 { margin: var(--m2) }
+.b { border-radius: var(--borderr) }
+.b1 { border-radius: var(--borderr1) }
+.b2 { border-radius: var(--borderr2) }
+.bg { background-color: var(--bg0) }
+.bg1 { background-color: var(--bg1) }
+.bg2 { background-color: var(--bg2) }
+.clr { background-color: var(--clr) }
+.clr1 { background-color: var(--clr1) }
+.clr2 { background-color: var(--clr2) }
+
+.w-100 { width: 100%; }
+.h-100 { height: 100% }
+
+.brd { border: var(--border) }
+.brd1 { border: var(--border1) }
+.brd-left { border-left: var(--border) }
+.brd1-left { border-left: var(--border1) }
+.brd-right { border-right: var(--border) }
+.brd1-right { border-right: var(--border1) }
+.brd-top { border-top: var(--border) }
+.brd1-top { border-top: var(--border1) }
+.brd-bottom { border-bottom: var(--border) }
+.brd1-bottom { border-bottom: var(--border1) }
+
+.hover {cursor: pointer;}
+.hover:hover { background: var(--h)}
+
+.primary { background-color: var(--pr); color: var(--pclr) }
+.primary1 { background-color: var(--pr1); color: var(--pclr) }
+.primary2 { background-color: var(--pr2); color: var(--pclr) }
+
+.btn-primary { background-color: var(--pr); color: var(--pclr); padding: var(--p1); }
+.btn-primary1 { background-color: var(--pr1); color: var(--pclr); padding: var(--p1); }
+.btn-primary2 { background-color: var(--pr2); color: var(--pclr); padding: var(--p1); }
+
+
+button { 
+    border: 2.5px solid var(--border_clr1); 
+    outline: none; 
+    cursor: pointer; 
+    background: none; 
+    color: var(--clr);
+    font-weight: 550;
+    border-radius: var(--radius);
+    margin: 1rem var(--m2);
+    transition: 0.34s;
+}
+input, select, textarea { 
+    border: 2.5px solid var(--border_clr1); 
+    outline: none; 
+    background: none; color: var(--clr); 
+    padding: var(--inp_p2);
+    margin: var(--m1) 0px;
+    border-radius: var(--radius);
+    width: 100%;
+    transition: 0.34s;
+}
+
+input:focus, select:focus, button:focus, textarea:focus {
+  box-shadow: 0 0 0 var(--shadow_len) rgba(0, 191, 255, 0.34); border: 2.5px solid var(--pr1); 
+}
+
+input[prm="t"], select[prm="t"], textarea[prm="t"]  {
+  padding: var(--p1); margin: var(--m2); border: var(--border)
+}
+
+button[prm="t"] {
+  background-color: var(--pr); color: var(--pclr); padding: var(--p1); 
+}
+button[prm="t1"] {
+    background-color: var(--pr1); color: var(--pclr); padding: var(--p1); 
+}
+button[prm="t2"] {
+    background-color: var(--pr2); color: var(--pclr); padding: var(--p1); 
+}
+
+button[prm="t"]:focus {
+    box-shadow: 0 0 0 calc(0.069rem + var(--shadow_len)) rgba(0, 191, 255, 0.34); border: 2.5px solid var(--pr1); 
+}
+button[prm="t1"]:focus {
+    box-shadow: 0 0 0 calc(0.069rem + var(--shadow_len)) rgba(0, 191, 255, 0.34); border: 2.5px solid var(--pr2); 
+}
+button[prm="t2"]:focus {
+    box-shadow: 0 0 0 calc(0.069rem + var(--shadow_len)) rgba(0, 191, 255, 0.34); border: 2.5px solid var(--pr1); 
+}
+
+.asd {
+    background-color: rgba(0, 191, 255, 0.233);
+}
